@@ -1,0 +1,15 @@
+The results in this folder correspond to the one presented in the paper. 
+When loading the files, you will find a variable with the name 
+"bestFnameOA", it corresponds to the best result in term of overall 
+accuracy, and its structure is similar to:
+
+'name_la=x1_rho=x2_Nseg=x3_ksize=x4'
+
+name: This is the name of the used dataset.
+la:   (x1) This is the value of parameter tau in the paper.
+rho:  (x2) This is the value of parameter rho in the paper.
+Nseg: (x3) This is the value of parameter E in the paper.
+Ksize:(x4) This is the value of parameter K_s in the paper.
+
+In order to reproduce the best-obtained results, the parameters for each 
+dataset in file 'run_HS' were manually adjusted.

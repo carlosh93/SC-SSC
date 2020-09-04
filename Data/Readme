@@ -1,0 +1,25 @@
+The proposed subspace clustering approach (SC-SSC) was tested on three 
+well-known and challenging hyperspectral images: Indian Pines, Salinas, and
+University of Pavia. These datasets are freely avaialable at
+
+http://www.ehu.eus/ccwintco/index.php/Hyperspectral_Remote_Sensing_Scenes
+
+In addition, we test our method with one multispectral image acquired over 
+the city of Zurich (Switzerland) by the QuickBird satellite. The first work
+which uses this dataset is:
+
+Volpi, M. & Ferrari, V.; "Semantic segmentation of urban scenes by 
+learning local class interactions", In IEEE CVPR 2015 Workshop 
+"Looking from above: when Earth observation meets vision" (EARTHVISION), 
+Boston, USA, 2015.
+
+and can be downloaded from:
+
+https://sites.google.com/site/michelevolpiresearch/data/zurich-dataset
+
+For the convenience of the reviewers, we download all of these datasets
+and place the .mat files in the subfolder "Full Dataset". In addition, we
+crop the images to select the regions of interest (ROI) presented in the 
+paper and save the resulting files in the subfolder ROI. After the 
+revision process, and if the paper is accepted, we will guide the users 
+of this code to download the data in the corresponding webpages.

@@ -1,0 +1,16 @@
+The sparse optimization problem in Eq. (5), and Eq. (2) are solved by the 
+LASSO version of the LARS algorithm implemented in the SPAMS package. We
+also sue the k-means algorithm implemented by VLFeat package. For 
+the convenience of the reviewers, we provide an already downloaded and  
+compiled SPAMS files (version 2.6) and VLFeat package (version 0.9.21).
+
+Besides, we use the implementation of Algorithm 1 provided by authors in 
+
+C. You, C. Li, D. P. Robinson, & R. Vidal  (2018). Scalable exemplar-based 
+subspace clustering on class-imbalanced data. In Proceedings of the 
+European Conference on Computer Vision (ECCV) (pp. 67-83).
+
+We also use some functions (bestMap,cnormalize,hungarian,etc) provided by 
+the authors of SSC and are freely available at
+
+http://vision.jhu.edu/code/
