@@ -1,4 +1,4 @@
-To improve the reproducibility of this work, we provide three scripts:
+To reproduce the results of this work, we provide three scripts:
 
 -'run_HS.m': This script runs the proposed method on an individual dataset
 and prints the Overall Accuracy, NMI, and running time. All the other results
