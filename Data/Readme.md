@@ -1,4 +1,4 @@
-## Datasets
+## Dataset
 
 The proposed subspace clustering approach (SC-SSC) was tested on three  well-known and challenging hyperspectral images: Indian Pines, Salinas, and The University of Pavia. These datasets are freely available at:
 
